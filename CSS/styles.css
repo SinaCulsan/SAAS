@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
