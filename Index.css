@@ -1,8 +1,13 @@
 
 body{
-    margin: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
-header {
+
+/*Header*/
+
+.Header {
 
     background-color: white;
     display: flex;
@@ -13,7 +18,7 @@ header {
 
 }
 
-#menu-items a {
+.MenuItems a {
     padding: 16px;
     background-color: transparent;
     padding: 16px;
@@ -25,4 +30,12 @@ header {
     margin: 24px;
 
 
+}
+
+.MenuItems--a:hover{
+    background-color: ;
+}
+
+.LogoImage img{
+    margin-left: 24px;
 }
