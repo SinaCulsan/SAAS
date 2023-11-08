@@ -13,7 +13,7 @@ header {
 
 }
 
-#menu-items a {
+.MenuItems a {
     padding: 16px;
     background-color: transparent;
     padding: 16px;
@@ -25,4 +25,13 @@ header {
     margin: 24px;
 
 
+
+}
+
+.MenuItems--a:hover{
+    background-color: ;
+}
+
+.LogoImage img{
+    margin-left: 24px;
 }
