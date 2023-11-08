@@ -4,44 +4,55 @@
 	box-sizing: border-box;
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
     
 }
 
+
 .contenedor{
     display: flex;
     flex-direction: row;
+
     
-    
+       
 
 }
 
 #imginicial {
     display: flex;
-    height: auto;
-    padding: 50px;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    padding-top: 20%;
+    
+    
    
   
 
 }
 
-.contenedor img{
+#imageinicial img{
 
     display: flex;
     height: auto;
-  
-    
 
+    
 }
 
 
-.login {
+#login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+#form {
+    display: contents;
+    flex-direction: column;
 }
 
