@@ -93,12 +93,21 @@ button {
 
 .ContenedorTareas {
 	/*Flex */
-	width: 100%;
+	width: 79%;
 
 	display: flex;
     flex-direction: row;
-	flex-wrap: wrap;
-	gap: 20px;
+	flex-wrap: wrap;	
+    margin: 50px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgba(140, 134, 134, .1);
+    min-width: auto;
+    align-items: flex-start;
+    align-content: center;
+    border-radius: 10px;
+    background-color: rgba(140, 134, 134, .1);
+    
+     
 
 	/* Grid */
 	/* 
@@ -109,19 +118,82 @@ button {
 
 }
 
+.ContenedorTareas p{
+    padding: 1rem 0 1rem 0;
+}
+
+
+
+
+
+.ContenedorTareas button {
+    width: 250px;
+    height: 26px;
+    background-color: #FFFFFF;
+    color: #60D0F4;
+    border: solid 1px #60D0F4;
+    transition: all 1s ease;
+  
+    
+}
+.ContenedorTareas button:hover {
+    background: #60D0F4;
+    color: #fff !important;
+  }
+
+
+
+
+
 .Card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 	border-radius: 10px;
-	min-height: 100px;
-	font-weight: bold;
-	padding: 20px;
+	min-height: 200px;
+    min-width: 250px;
+	font-weight: lighter;
+	padding: 1rem;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
+    width: 53px;
+    height: 120px;
+    font-size: 14;
+    margin: 20px 15px 20px 15px;
+    background-color: #FFFFFF;
 
 	/* Flex */
 	width: calc(33% - 16px);
+    
 }
+
+
+
+
+
+.ContenedorTareas--Nuevas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.ContenedorTareas--Produccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContenedorTareas--Terminadas {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .Card .Textos {
 	height: 100%;
@@ -134,12 +206,32 @@ button {
 
 
 .Card--New {
-    border: 2px solid red;
+    border: 2px solid #BDA038;
+}
+
+.Card--New:hover {      
+   box-shadow: 0 1px 14px  #BDA038;
+   transition: all 0.2s ease;
+
 }
 
 .Card--Pro {
-    border: 2px solid yellow;
+    border: 2px solid #FFCA0C;
 }
+.Card--Pro:hover {      
+    box-shadow: 0 1px 14px  #FFCA0C;
+    transition: all 0.2s ease;
+ 
+ }
+.Card--Terminadas {
+    border: 2px solid #05FF00;
+}
+.Card--Terminadas:hover {      
+    box-shadow: 0 1px 14px  #05FF00;
+    transition: all 0.2s ease;
+ 
+ }
+
 
 
 
