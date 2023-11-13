@@ -1,3 +1,19 @@
+:root {
+    --primary-color: #05D3F8;
+    --secundary-color: #386DBD;
+    --primary-color-hover: #009DDD;
+    --tertiary-color: #386DBD;
+    --background: 
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -31,8 +47,33 @@ Header {
 
 }
 
+.MenuItems a:hover {
+    color:  var(--primary-color-hover);
+    font-weight: 500;
+    border-bottom: 2px solid var(--primary-color-hover);
 
 
+}
+
+.BuscadorInput {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.Search {
+    display: flex;
+    height: 40px;
+    border-radius: 8px;
+    border: 0.5px solid rgb(56, 56, 56);
+    flex-grow: 1;
+    padding-left: 16px;
+
+}
+
+.Profile {
+    margin-right: 24px;
+}
 
 .LogoImage img {
     margin-left: 24px;
